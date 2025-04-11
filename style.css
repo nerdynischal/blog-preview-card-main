@@ -1,12 +1,68 @@
 body {
   font-family: Figtree;
+  font-weight: 500;
   background-color: hsl(47, 88%, 63%);
   height: 100vh;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
 }
 
 .blog-card {
   background-color: white;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 8px 8px black;
+  row-gap: 20px;
+}
+
+.blog-card img {
+  border-radius: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.chip {
+  font-size: 12px;
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+  max-width: fit-content;
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+.date {
+  font-size: 12px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.description {
+  font-size: 13px;
+  color: hsl(0, 0%, 42%);
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.author img {
+  width: 28px;
+}
+
+.author-name {
+  font-size: 12px;
+  font-weight: 800;
 }
