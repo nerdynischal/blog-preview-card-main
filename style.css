@@ -1,0 +1,12 @@
+body {
+  font-family: Figtree;
+  background-color: hsl(47, 88%, 63%);
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.blog-card {
+  background-color: white;
+}
