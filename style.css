@@ -30,14 +30,18 @@ body {
   row-gap: 16px;
 }
 
+.text * {
+  max-width: fit-content;
+}
+
 .chip {
   font-size: 12px;
   font-weight: 800;
   background-color: hsl(47, 88%, 63%);
-  max-width: fit-content;
   padding: 6px 8px;
   border-radius: 4px;
 }
+
 .date {
   font-size: 12px;
 }
@@ -45,6 +49,11 @@ body {
 .title {
   font-size: 20px;
   font-weight: 800;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: hsl(47, 88%, 63%);
 }
 
 .description {
