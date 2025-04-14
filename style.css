@@ -1,6 +1,7 @@
 body {
   font-family: Figtree;
   font-weight: 500;
+  color: #111111;
   background-color: hsl(47, 88%, 63%);
   height: 100vh;
   display: flex;
@@ -10,14 +11,14 @@ body {
 
 .blog-card {
   background-color: white;
-  width: 300px;
+  width: 360px;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  border: 1px solid black;
-  padding: 20px;
+  border: 1px solid #111111;
+  padding: 24px;
   box-shadow: 8px 8px black;
-  row-gap: 20px;
+  row-gap: 24px;
 }
 
 .blog-card img {
@@ -35,7 +36,8 @@ body {
 }
 
 .chip {
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 1.5;
   font-weight: 800;
   background-color: hsl(47, 88%, 63%);
   padding: 6px 8px;
@@ -43,11 +45,12 @@ body {
 }
 
 .date {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .title {
-  font-size: 20px;
+  font-size: 24px;
+  line-height: 1.5;
   font-weight: 800;
   cursor: pointer;
 }
@@ -57,21 +60,22 @@ body {
 }
 
 .description {
-  font-size: 13px;
+  font-size: 16px;
+  line-height: 1.5;
   color: hsl(0, 0%, 42%);
 }
 
 .author {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 }
 
 .author img {
-  width: 28px;
+  width: 32px;
 }
 
 .author-name {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
 }
